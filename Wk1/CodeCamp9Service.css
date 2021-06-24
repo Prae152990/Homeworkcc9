@@ -1,0 +1,201 @@
+/* temp
+section,
+header,
+footer {
+  outline: 1px dashed peru; */
+}
+
+.container {
+  /* outline: 1px solid lightcoral; */
+}
+/* Global */
+/* การทำเว็บควรใส่ใจเรื่องการแสดงผลบน screen ที่แตกต่างกัน */
+
+/* body {
+    height: 100vh;
+} */
+
+hbody {
+  height: 100vh;
+}
+
+h1,
+body {
+margin: 0;
+}
+
+html {
+background-color: silver;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+
+body {
+background-color: silver;
+max-width: 1600px;
+margin: auto;
+/* padding: 0; */
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.current {
+  color: deeppink;
+  font-weight: bold;
+}
+
+header {
+  background: skyblue;
+  color: whitesmoke;
+  min-height: 65px;
+  padding-top: 30px;
+  border-bottom: 3px solid #ff5c4c;
+}
+
+header .branding {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header a:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header span {
+  color: deeppink;
+}
+
+/* Showcase */
+
+.showcase {
+  min-height: 400px;
+  background: url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  /* เงาเพิ่มเองคับ ไม่เกี่ยวเด้อ */
+  text-shadow: 2px 2px 2px black;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.showcase p {
+  font-size: 20px;
+  color: deeppink;
+  width: 80%;
+  margin: auto;
+}
+
+/* NewsLetter */
+.newsletter {
+  padding: 15px;
+  background: skyblue;
+  color: #ff5c4c;
+}
+.newsletter h1 {
+  float: left;
+  margin-top: 5px;
+}
+
+.newsletter form {
+  float: right;
+}
+
+.newsletter input[type="email"] {
+  width: 300px;
+  width: 16vw;
+  height: 25px;
+  padding: 2px 0;
+  margin: 2px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+.newsletter button {
+  margin-top: 0.2vw;
+  height: 35px;
+  width: 10vw;
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 0;
+  border: none;
+}
+
+.boxes {
+    margin-top: 2vh;
+}
+.box {
+    margin: 0vw 0 0.3vw 0;
+    padding: 1.4vw 1vw;
+    float: left;
+    width: 62%;
+    background-color: #ece175;
+    color: deeppink;
+    font-size: 1.8vh;
+}
+
+.box2 {
+    float: right;
+    padding: 2vw 1.5vw;
+    margin: 1.8vw 0 4vw 0vw;
+    background-color: violet;
+    width: 25vw;
+    height: 12vw;
+    overflow: hidden;
+    color: white;
+    font-size: 1vw;
+}
+
+.box span.topic {
+    font-weight: bolder;
+    color: deeppink;
+}
+
+.box2 span.topic {
+  font-weight: bolder;
+  color: white;
+}
+
+.box span.price {
+    font-weight: bolder;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 0.8vh;
+  color: whitesmoke;
+  background-color: skyblue;
+  text-align: center;
+}
+
+
+/*  */

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color: whitesmoke;
+        }
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid silver;
+            font-family: 'Roboto', sans-serif;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table style="width: 40%">
+        <tr>
+            <th colspan="2" style="background-image: linear-gradient(to bottom, white, rgba(192, 192, 192, 0.1));font-size: 1.3em">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td style="border-top: 1px solid silver"><label for="name">Name</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter name" style="border: 2px inset lightgray; width: 98%;"></td>
+        </tr>
+        <tr>
+            <td><label for="pizza_topping">Pizza Topping</label> </td>
+            <td>
+                <input type="radio" id="pizza_topping" name="pizza_topping" value="Supreme">
+                <label for="supreme"> Supreme </label><br>
+                <input type="radio" id="pizza_topping" name="pizza_topping" value="Vegetarian">
+                <label for="vegetarian"> Vegetarian </label><br>
+                <input type="radio" id="pizza_topping" name="pizza_topping" value="Hawaiian">
+                <label for="hawaiian"> Hawaiian </label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pizza_sauce">Pizza Sauce</label> </td>
+            <td>
+                <select name="pizza_sauce" id="pizza_sauce"
+                    style="width: 60%; border: 1px solid rgba(0, 0, 0, 0.4); border-radius: 3px; background-image: linear-gradient(to bottom, white, rgba(192, 192, 192, 0.1));">
+                    <option value="tomato">Tomato</option>
+                    <option value="bbq">BBQ</option>
+                    <option value="spicy">Spicy</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="optiona_extras">Optiona Extras</label> </td>
+            <td>
+                <input type="checkbox" id="optiona_extras" name="optiona_extras" value="extre_cheese">
+                <label for="extre_cheese"> Extre Cheese </label>
+                <input type="checkbox" id="optiona_extras" name="optiona_extras" value="gluten_free_base">
+                <label for="gluten_free_base"> Gluten Free Base </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Delivery Instructions : <br>
+                <textarea name="" id="" cols="95%" rows="6px" placeholder="Enter your instruction"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-image: url(https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"><input class="sbm" type="submit" value="Send my Order"></td>
+        </tr>
+    </table>
+    <!-- Span เน้นในการตกแต่งคำสั้นๆ ให้ดูโดดเด่น ส่วน div มักใช้ในการเป็น container ในการใส่ content อื่นๆ -->
+</body>
+
+</html>
