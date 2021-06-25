@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,4 +64,71 @@
   </div>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML CSS JS</title>
+<style>
+    body { padding: 0; margin:0; height: 200vh;}
+        .bottom { bottom: 0;}
+        .big {width:  50%; height: 50%;}
+        .small {width: 25%; height: 25%;}
+        .inside { width: 10%; height: 10%;}
+        .absolute { position: absolute;}
+        .relative { position: relative;}
+        .fixed { position: fixed;}
+        .top {top: 0;}
+        .left {left: 0;}
+        .right {right: 0}
+        .center { left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .red { background-color: red;}
+        .green { background-color: green;}
+        .blue { background-color: blue;}
+        .yellow { background-color: yellow;}
+        .pink { background-color: deeppink; }
+        .white { background-color: white;}
+</style>
+</head>
+<body>
+  <div class="fixed">
+
+    <div class="small red left top absolute fixed"></div>
+    <!-- กล่องแดงขนาดใหญ่ มุมซ้ายบน -->
+
+    <div>
+
+      <!-- กล่องบริเวณตรงกลาง -->
+     <div class="big white center absolute fixed">
+       <!-- กำหนดกล่องสีขาว ตรงกลาง เพื่อสร้างจุดอ้างอิงให้กับ กล่องขนาดเล็กภายใน -->
+       <div class="inside red left top absolute"></div>
+       <!-- กล่องแดงขนาดเล็ก มุมซ้ายบน ที่ติดกับ กล่องสีแดงขนาดใหญ่ -->
+       <div class="inside blue right top absolute"></div>
+       <!-- กล่องน้ำเงินขนาดเล็ก มุมขวาบน ที่ติดกับ กล่องสีน้ำเงินขนาดใหญ่ -->
+       <div class="inside pink center relative"></div>
+       <!-- กล่องชมพูขนาดเล็ก ตรงกลาง --> 
+       <div class="inside green left bottom absolute"></div>
+       <!-- กล่องเขียวขนาดเล็ก มุมซ้ายล่าง ที่ติดกับ กล่องสีแดงขนาดใหญ่ -->       
+       <div class="inside yellow right bottom absolute"></div>
+       <!-- กล่องเหลืองขนาดเล็ก มุมขวาล่าง ที่ติดกับ กล่องสีเหลืองขนาดใหญ่ -->
+     </div>
+
+  </div>
+
+    <div class="small blue right top  absolute fixed"></div>
+    <!-- กล่องน้ำเงินมุมขวาบน -->  
+
+  </div>
+  
+  <div>
+
+    <div class="small green left bottom absolute fixed"></div>
+    <!-- กล่องเขียวมุมซ้ายล่าง -->   
+    <div class="small yellow right bottom absolute fixed"></div>
+    <!-- กล่องเหลืองมุมขวาล่าง --> 
+     
+  </div>
+
+</body>
+>>>>>>> 8ba2d363f4cb18fba277d11627b7868b8970e8f7
 </html>
