@@ -1,0 +1,5 @@
+function functionWithArgs(para1, para2) {
+  return console.log(para1 + para2);
+}
+functionWithArgs(1, 2);
+functionWithArgs(7, 9)

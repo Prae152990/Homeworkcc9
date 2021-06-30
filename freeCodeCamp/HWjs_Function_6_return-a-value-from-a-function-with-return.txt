@@ -1,0 +1,4 @@
+function timesFive(a) {
+  return a*5;
+}
+let answer = timesFive(7);
